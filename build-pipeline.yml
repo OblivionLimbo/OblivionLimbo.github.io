@@ -50,3 +50,8 @@ jobs:
           FIRST_NAME: Kristoffer
           MIDDLE_NAME: NoName
           LAST_NAME: Juelsen
+          SECRET: ${{secrets.PASSWORD}}
+      # - name: PASSWORD
+      #   run: echo "Your password is $PASSWORD"
+      #     env: 
+      #       PASSWORD: ${{secrets.PASSWORD}}
